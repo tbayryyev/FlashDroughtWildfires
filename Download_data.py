@@ -1,5 +1,5 @@
 
-# Script to download files from 'url.txt' file which contains lines of links to the data needed to be downloaded
+# Script to download files from 'url.txt' file which contains links to the data needed to be downloaded
 import requests
 counter = 1
 with open('url.txt') as my_file:
