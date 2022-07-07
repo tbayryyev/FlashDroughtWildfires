@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# Script to download files from 'url.txt' file which contains lines of links to the data needed to be downloaded
+# Script to download files from 'url.txt' file which contains links to the data needed to be downloaded
 import requests
 counter = 1
 with open('url.txt') as my_file:
@@ -28,12 +22,3 @@ with open('url.txt') as my_file:
             print('contents of URL written to '+FILENAME)
         except:
             print('requests.get() returned an error code '+str(result.status_code))
-        
-       
-
-
-# In[ ]:
-
-
-
-
