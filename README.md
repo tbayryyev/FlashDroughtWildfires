@@ -1,5 +1,5 @@
 # FlashDroughtWildfires
-Investigating the relationship between Flash Drought and Wildfires through geospatial data analysis
+The goal of this work was to investigate the relationship between Flash Drought and Wildfires through geospatial data analysis
 
 ### learning
 This folder consists of Jupyter Notebooks that I used to test methods and learn about netcdf files. The dataset used here was 1 month long in order to speed up the running time of the programs when testing and learning.
